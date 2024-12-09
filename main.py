@@ -186,4 +186,4 @@ def log_auth_request(user_id, ip_address):
     conn.close()
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=8080)
